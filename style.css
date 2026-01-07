@@ -1,97 +1,90 @@
-/* OPTION 2: MODERN INDUSTRIAL */
+/* OPTION 3: VINTAGE ANALOG */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&family=Oswald:wght@400;700&display=swap');
+
 body {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Merriweather', serif; /* Serif font for body text */
     margin: 0;
     padding: 0;
-    background-color: #fff;
-    color: #000;
-    line-height: 1.5;
+    background-color: #fdfbf7; /* Cream/Paper color */
+    color: #333;
+    line-height: 1.8;
 }
 
 header {
-    background-color: #fff;
-    color: #000;
-    padding: 60px 0 20px 0;
+    background-color: #8a2be2; /* Deep Purple (or change to #800000 for Red) */
+    background: linear-gradient(to right, #2c3e50, #000000); /* Or sleek slate gradient */
+    color: #fff;
+    padding: 50px 0;
     text-align: center;
 }
 
 header h1 {
-    font-size: 3.5rem;
-    font-weight: 900; /* Extra bold */
-    letter-spacing: -1px; /* Tight tracking */
+    font-family: 'Oswald', sans-serif;
+    font-size: 3rem;
+    letter-spacing: 3px;
     text-transform: uppercase;
+    margin-bottom: 5px;
 }
 
 nav {
     background-color: #fff;
     text-align: center;
-    padding: 20px 0;
-    border-top: 4px solid #000;
-    border-bottom: 4px solid #000;
+    padding: 15px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
 }
 
 nav a {
-    color: #000;
+    font-family: 'Oswald', sans-serif;
+    color: #555;
     text-decoration: none;
-    padding: 10px 30px;
+    padding: 10px 20px;
     display: inline-block;
-    font-weight: bold;
     text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 nav a:hover {
-    background-color: #000;
-    color: #fff;
+    color: #000;
+    text-decoration: underline;
 }
 
 .container {
     max-width: 800px;
-    margin: 60px auto;
-    padding: 0 20px;
+    margin: 40px auto;
+    padding: 40px;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
 }
 
 .page-title {
-    border-bottom: none;
-    text-align: left;
-    font-size: 2.5rem;
-    font-weight: 800;
+    font-family: 'Oswald', sans-serif;
+    color: #2c3e50;
+    text-align: center;
+    font-size: 2rem;
     margin-bottom: 40px;
 }
 
-.content-section h3 {
-    text-transform: uppercase;
-    border-bottom: 2px solid #000;
-    display: inline-block;
-    margin-bottom: 10px;
-}
-
 .highlight-box {
-    background-color: #f4f4f4;
-    border: 2px solid #000;
-    padding: 30px;
-    margin: 40px 0;
+    background-color: #fff8e1; /* Very light yellow/aged paper */
+    border: 1px dashed #bbb;
+    padding: 20px;
+    text-align: center;
 }
 
 button {
-    background-color: #000;
+    background-color: #2c3e50;
     color: #fff;
-    border: 2px solid #000;
-    padding: 15px 30px;
-    font-size: 1rem;
-    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+    padding: 10px 30px;
+    letter-spacing: 1px;
     cursor: pointer;
-    transition: all 0.3s;
-}
-
-button:hover {
-    background-color: #fff;
-    color: #000;
 }
 
 footer {
-    border-top: 1px solid #eee;
+    background-color: #fdfbf7;
+    color: #888;
     text-align: center;
-    padding: 40px;
-    font-size: 0.8rem;
-    margin-top: 60px;
+    padding: 30px 0;
+    border-top: 1px solid #ddd;
 }
