@@ -1,0 +1,142 @@
+/* OPTION 1: DARK MODE (Deep Red Edition) */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Very dark grey background */
+    color: #e0e0e0; /* Off-white text for readability */
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #080808; /* Almost black */
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+    border-bottom: 2px solid #8a0000; /* Deep Red border */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3rem;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: 300;
+    text-shadow: 0 0 10px rgba(138, 0, 0, 0.5); /* Subtle red glow */
+}
+
+header p {
+    color: #b3b3b3;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+/* Navigation */
+nav {
+    background-color: #1a1a1a;
+    text-align: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #333;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 25px;
+    display: inline-block;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: #ff1a1a; /* Bright red on hover */
+    background-color: #220000; /* Very dark red background on hover */
+}
+
+/* Main Content */
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 40px;
+    background-color: #1e1e1e; /* Card background */
+    box-shadow: 0 0 20px rgba(0,0,0,0.7); /* Deep shadow */
+    border-top: 4px solid #8a0000; /* Deep Red accent top */
+}
+
+.page-title {
+    border-bottom: 1px solid #444;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.content-section h3 {
+    color: #cc0000; /* Red headers */
+}
+
+/* Highlight / Callout Box */
+.highlight-box {
+    background-color: #252525;
+    border-left: 4px solid #8a0000; /* Deep Red stripe */
+    padding: 20px;
+    margin: 30px 0;
+}
+
+/* Forms */
+input, textarea {
+    background-color: #333;
+    border: 1px solid #555;
+    color: #fff;
+    padding: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border-color: #cc0000; /* Red border when typing */
+}
+
+/* Buttons */
+button {
+    background-color: #8a0000; /* Deep Red */
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: background 0.3s;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #cc0000; /* Brighter red on hover */
+}
+
+/* Lists */
+ul {
+    list-style: square;
+}
+
+ul li::marker {
+    color: #cc0000; /* Red bullet points */
+}
+
+/* Footer */
+footer {
+    background-color: #000;
+    color: #555;
+    text-align: center;
+    padding: 30px 0;
+    font-size: 0.8rem;
+    border-top: 1px solid #222;
+}
